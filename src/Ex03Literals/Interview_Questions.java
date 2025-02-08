@@ -12,13 +12,10 @@ public class Interview_Questions {
         int b = 10;
 
         System.out.println(first_name + last_name + a + b);
-        // PramodDutta1010 - first operator - + performed as Concatenation
+        // MeenuKumari1010 - first operator - + performed as Concatenation
 
         System.out.println(a + b + first_name + last_name);
-        // First + math -> 20PramodDutta
-
-
-
+        // First + math -> 20MeenuKumari
         System.out.println(first_name + last_name + (a + b));
 
 
