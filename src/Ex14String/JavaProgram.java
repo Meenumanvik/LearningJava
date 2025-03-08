@@ -10,13 +10,13 @@ public class JavaProgram {
 
     public static String transformString(String input) {
         StringBuilder result = new StringBuilder();
-        int atCount = 1;
+        int Count = 1;
         for (char c : input.toCharArray()) {
             if (c == 'a' ) {
-                for (int i = 0; i < atCount; i++) {
+                for (int i = 0; i < Count; i++) {
                     result.append('@');
                 }
-                atCount++;
+                Count++;
             } else {
                 result.append(c);
             }
