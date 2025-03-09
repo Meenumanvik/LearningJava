@@ -16,9 +16,16 @@ public class Arraymarks {
 
         for (int i = 0; i < marks.length ; i++) { // 0,1,2,3,4
             System.out.println(marks[i]);
+            //System.out.println(marks[i] + "");
+
+        }
+            Arrays.sort(marks); // 51,87,90,91,100
+        System.out.println(Arrays.toString(marks));
+        for (int i = 0; i < marks.length ; i++) { // 0,1,2,3,4
+                System.out.println(marks[i] + "");
+
         }
 
-        Arrays.sort(marks); // 51,87,90,91,100
 
     }
 }
