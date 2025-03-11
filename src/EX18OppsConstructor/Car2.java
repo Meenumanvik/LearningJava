@@ -1,8 +1,8 @@
 package EX18OppsConstructor;
 
 public class Car2 {
-    String model;
-    int year;
+    public String model;
+    public int year;
 
 
     Car2(){
@@ -12,7 +12,7 @@ public class Car2 {
     }
 
     // Param - Constructor
-    Car2(String model_name,int year_created){
+    public Car2(String model_name, int year_created){
         this.model = model_name;
         this.year = year_created;
     }
