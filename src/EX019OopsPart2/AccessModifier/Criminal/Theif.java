@@ -1,4 +1,4 @@
-package EX019OopsPart2.AccessModifier;
+package EX019OopsPart2.AccessModifier.Criminal;
 
 import EX019OopsPart2.AccessModifier.Police.Cop;
 
